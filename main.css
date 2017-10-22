@@ -1,39 +1,50 @@
 body{
-  background-color: silver;
+   margin: 0;
+  padding:0;
+}
+html{
+  margin: 0;
+  padding: 0;
 }
 header{
+  width: 100%;
   position: fixed;
-  z-index: 5;
- }
- .logo{
-  position: absolute;
-  left: 25px;
-  top: 40px;
-
- }
-.busqueda{
-  position: absolute;
-
+  background-color: white;
+  z-index: 1000;
+ 
 }
+.busqueda{
+  width: 75%;
+  padding: 20px;
+  border:none
+  background-color: white;
+  border-radius: 15px;
+  margin: 0px 8px;
+}
+.logo{
+  margin:20px;
+  color:red;
+  
+ }
 .menu{
   list-style: none;
-  margin:0;
   padding:0;
-  position: fixed;
+  position: relative;
 }
 li{
   color: white;
   font-family: sans-serif;
   font-size: 20px;
   width: 100px;
-  padding: 30px;
+  padding: 20px;
+  margin-top: 7px;
   border-radius: 10%;
   display: inline-block;
   text-align: center;
-  background-color: olive;
+  background-color: maroon;
   position: relative;
-  top: 180px;
-  left: 75px;
+  top: 10px;
+  left: 29px;
 }
 ul li:nth-child(even){
   background-color: grey;
@@ -43,13 +54,15 @@ ul li:nth-child(even){
   width:1300px;
   position: absolute;
   top: 300px;
-  left: 100px;
-  
+  left: 75px;
+}
+p{
+  display: inline-block;
 }
 img{
   width: 270px;
   height: 380px;
-  margin: 50px;
+  margin: 5px;
 }
 
 
